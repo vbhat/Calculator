@@ -1,10 +1,10 @@
 # Start from base image
 FROM golang:alpine
 
-RUN mkdir -p /backend
+RUN mkdir -p /api
 
 # Set the current working directory inside the container
-WORKDIR /backend
+WORKDIR /api
 
 # Copy go mod and sum files
 # COPY go.mod go.sum ./
@@ -14,8 +14,7 @@ WORKDIR /backend
 # RUN go mod download
 
 # Copy source from current directory to working directory
-# COPY . .
-ADD server.go /backend
+ADD server.go /api
 
 # Build the application
 RUN go build ./server.go
