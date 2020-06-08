@@ -1,5 +1,5 @@
 # Calculator 
-A calculator app built using Vue.js and Go to be used for demo purposes. This is based on this [tutorial(https://medium.com/@adeshg7/vuejs-golang-a-rare-combination-53538b6fb918). Docker has been added to the project to demonstrate how the intern project will be setup. 
+A calculator app built using Vue.js and Go to be used for demo purposes. This is based on this                       [tutorial](https://medium.com/@adeshg7/vuejs-golang-a-rare-combination-53538b6fb918). Docker has been added to the project to demonstrate how the intern project will be setup. 
 
 ## Setup
 Make sure you have [Docker](https://www.docker.com/products/docker-desktop) and [Docker Compose](https://docs.docker.com/compose/) installed.
